@@ -1,0 +1,14 @@
+top = "bar_value"
+
+#[foo]
+#v1 = "bar_value"
+#v2 = 1
+
+[[bar]]
+v = "bar_value1"
+[[bar]]
+v = "bar_value2"
+
+[env.dev]
+v = "bar_value"
+

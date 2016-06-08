@@ -1,0 +1,13 @@
+top = "common_value"
+
+[foo]
+v1 = "common_value"
+v2 = 1
+
+[[bar]]
+v = "common_value1"
+[[bar]]
+v = "common_value2"
+
+[env.dev]
+v = "common_value"

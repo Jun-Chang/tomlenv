@@ -1,0 +1,13 @@
+top = "foo_value"
+
+[foo]
+v1 = "foo_value"
+v2 = 1
+
+[[bar]]
+v = "foo_value1"
+[[bar]]
+v = "foo_value2"
+
+[env.dev]
+v = "foo_value"
